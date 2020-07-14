@@ -30,7 +30,7 @@ export default Vue.extend({
         { rel: 'stylesheet', href: '/default/css/style.css' },
      ], 
      script: [
-       { src: '/default/js/jquery.min.js', body: true, defer: true },
+       
        { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBVtjo9eO4klWhYbHwL9jObfuke4rxSWWc', body: true, defer: true },
        { src: '/default/js/bootstrap.min.js', body: true, defer: true },
        { src: '/default/revolution/js/jquery.themepunch.tools.min.js', body: true, defer: true },

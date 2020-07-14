@@ -1,3 +1,4 @@
+// const webpack = require("webpack");
 
 export default {
   /*
@@ -23,6 +24,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: '/default/js/jquery.min.js' },
     ]
   },
   /*
@@ -68,5 +72,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    // vendor: ["jquery"],
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     $: "jquery"
+    //   })
+    // ],
   }
 }
